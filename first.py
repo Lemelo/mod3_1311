@@ -9,3 +9,5 @@ st.code("x=2021")
 st.latex(r''' a+a r^1+a r^2+a r^3 ''')
 numero = st.slider('Selecione um número', min_value=0, max_value=100)
 st.text('Seu número é ' + str(numero))
+resposta = st.slider('Informe o grau de satisfação:', min_value=0, max_value=100)
+st.write(f'A resposta do usuario foi {str(resposta)}'
