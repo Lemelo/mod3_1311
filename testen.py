@@ -1,3 +1,5 @@
+import requests as req
+import pandas as pd
 import streamlit as st
 
 #item 3
