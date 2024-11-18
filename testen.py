@@ -41,7 +41,7 @@ dfEstados = pd.DataFrame({
 totalHomens = dfHomens['id'].count()
 st.metric('Total de homens', totalHomens)
 
-#total de homens
+#total de mulheres
 totalMulheres = dfMulheres['id'].count()
 st.metric('Total de mulheres', totalMulheres)
 
@@ -52,3 +52,5 @@ st.bar_chart(dfEstados,
             y_label = 'Quantidade de deputados'
       )
 st.dataframe(dfFiltrado)
+#dfEstados.info()
+type(ocorrencias)
